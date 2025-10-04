@@ -1,0 +1,47 @@
+@page
+@model TailwindTasks.Pages.Task5Model
+@{
+    ViewData["Title"] = "Task 5 - Landing Page";
+}
+
+<div class="bg-gray-50">
+    <div class="container mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-bold text-gray-900 mb-4">
+                Welcome to Our Platform
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Discover amazing features and transform your workflow with our innovative solutions
+            </p>
+            <button class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-lg">
+                Get Started Now
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                    <span class="text-2xl">⚡</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Lightning Fast</h3>
+                <p class="text-gray-600">Experience blazing fast performance with our optimized platform</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                    <span class="text-2xl">🔒</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">Secure & Reliable</h3>
+                <p class="text-gray-600">Your data is protected with enterprise-grade security measures</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                    <span class="text-2xl">❤️</span>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-3">User Friendly</h3>
+                <p class="text-gray-600">Intuitive design that makes complex tasks simple and enjoyable</p>
+            </div>
+        </div>
+    </div>
+</div>
